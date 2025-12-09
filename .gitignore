@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+/.venv
+.venv/
+/data_samples/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+.terraform/
+.terraform/*
+
+*.tfvars
+*.tfvars.json
+
+crash.log
+crash.*.log

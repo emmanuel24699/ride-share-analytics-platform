@@ -1,7 +1,7 @@
 from fastapi import FastAPI, WebSocket
-from simulator_engine import SimulatorEngine
-from state_loader import load_state
-from models import DriverLocationPing, TripEvent, SurgeEvent
+from .simulator_engine import SimulatorEngine
+from .state_loader import load_state
+from .models import DriverLocationPing, TripEvent, SurgeEvent
 
 app = FastAPI(title="Ride-Share Streaming Simulator")
 

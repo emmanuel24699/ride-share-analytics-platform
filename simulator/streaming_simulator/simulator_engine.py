@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 import h3
 from faker import Faker
-from models import DriverLocationPing, TripEvent, SurgeEvent
+from .models import DriverLocationPing, TripEvent, SurgeEvent
 
 fake = Faker()
 random.seed(42)  # Consistent with batch
